@@ -70,9 +70,9 @@ python -m pip install --quiet --only-binary=:all: -r requirements.txt
 
 # ── Step 2: Train model on DATA_DIR ───────────────────────────────────────────
 echo "[2/3] Training forecasting model on data from $DATA_DIR …"
-python src/train.py \
-  --data-dir  "$DATA_DIR" \
-  --model-dir "$(dirname "$MODEL_PATH")"
+#python src/train.py \
+#  --data-dir  "$DATA_DIR" \
+#  --model-dir "$(dirname "$MODEL_PATH")"
 
 # ── Step 3: Generate probabilistic forecasts ──────────────────────────────────
 echo "[3/3] Generating probabilistic forecasts …"
