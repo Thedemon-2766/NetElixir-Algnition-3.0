@@ -1,0 +1,4 @@
+# Core dependencies — all pinned, no network calls at run time
+numpy==2.3.2
+pandas==2.3.3
+scikit-learn==1.7.2

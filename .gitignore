@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Generated outputs (not committed — produced fresh on each run)
+output/
+model/
+
+# Feature cache (regenerated automatically from data)
+src/cache/
+
+# Pickle folder: pickle/model.pkl IS committed (do NOT ignore it)
+# but ignore any other large artifacts that might land there
+pickle/*.json
