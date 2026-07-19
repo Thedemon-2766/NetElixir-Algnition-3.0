@@ -34,6 +34,7 @@ HORIZON="${HORIZON:-30}"
 # ── Ensure required directories exist ─────────────────────────────────────────
 mkdir -p "$(dirname "$MODEL_PATH")"
 mkdir -p "$(dirname "$OUTPUT_PATH")"
+mkdir -p "$(dirname "$DATA_DIR")"
 
 echo "======================================================================"
 echo " AIgnition 3.0 — Probabilistic Revenue & ROAS Forecasting"
