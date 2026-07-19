@@ -1,0 +1,29 @@
+{
+  "trained_at": "2026-07-19T12:12:52.607283+00:00",
+  "seed": 42,
+  "metadata": {
+    "n_rows_ingested": 25562,
+    "n_channels": 3,
+    "channels_present": [
+      "Bing Ads",
+      "Google Ads",
+      "Meta Ads"
+    ],
+    "n_campaign_types": 7,
+    "n_campaigns": 109,
+    "date_min": "2024-01-01",
+    "date_max": "2026-06-05",
+    "data_files": {
+      "google": "./data/google_ads_campaign_stats.csv",
+      "bing": "./data/bing_campaign_stats.csv",
+      "meta": "./data/meta_ads_campaign_stats.csv"
+    }
+  },
+  "gbr_cv_mae": 1944.6182021520865,
+  "global_roas_p10": 2.774785557423715,
+  "global_roas_p50": 4.778148624806978,
+  "global_roas_p90": 11.106308628802074,
+  "n_channel_models": 3,
+  "n_campaign_type_models": 10,
+  "n_campaign_models": 136
+}
